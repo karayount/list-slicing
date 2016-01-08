@@ -153,6 +153,7 @@ def inner_four_end(input_list):
     """
 
     return input_list[4:8]
+    # return input_list[5:1:-1]
 
 
 def replace_head(input_list):
@@ -169,7 +170,8 @@ def replace_head(input_list):
 
     """
 
-    pass
+    input_list[0] = 42
+    return None
 
 
 def replace_third_and_last(input_list):
